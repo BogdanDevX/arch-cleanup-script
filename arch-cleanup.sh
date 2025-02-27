@@ -163,6 +163,15 @@ update_aur_helpers() {
     echo -e "${GREEN}AUR update process finished.${RESET}"
 }
 
+update_flatpak() {
+    echo -e "${YELLOW}Updating Flatpak packages...${RESET}"
+    if flatpak update -y; then
+        echo -e "${GREEN}Flatpak packages updated successfully.${RESET}"
+    else
+        echo -e "${RED}Flatpak update failed. Please check for issues.${RESET}"
+    fi
+}
+
 disable_unused_services() {
     echo -e "${YELLOW}Listing running but disabled services...${RESET}"
     unused_services=$(systemctl list-units --type=service --state=running --no-pager | grep "loaded inactive" | awk '{print $1}')
@@ -194,7 +203,8 @@ while true; do
     echo "3) Repair missing or broken packages"
     echo "4) Delete downloads older than 30 days"
     echo "5) Update AUR Packages (yay/paru)"
-    echo "6) Disable Unused Services"
+    echo "6) Update Flatpak Packages"
+    echo "7) Disable Unused Services"
     echo "0) Exit"
     echo -n -e "${YELLOW}Select an option: ${RESET}"
     read choice
@@ -205,7 +215,8 @@ while true; do
         3) repair_packages ;;
         4) delete_old_downloads ;;
         5) update_aur_helpers ;;
-        6) disable_unused_services ;;
+        6) update_flatpak ;;
+        7) disable_unused_services ;;
         0) echo -e "${GREEN}Exiting...${RESET}"; exit ;;
         *) echo -e "${RED}Invalid option!${RESET}" ;;
     esac
