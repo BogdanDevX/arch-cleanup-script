@@ -1,7 +1,7 @@
 # arch-cleanup-script
 🚀 A lightweight Bash script for Arch Linux maintenance. Features include full system cleanup, package integrity checks, AUR updates (yay/paru), and service optimization.
 
-# Arch Linux Maintenance Script
+# Arch Linux Cleanup Script
 
 ## Overview
 
@@ -75,8 +75,8 @@ This project is licensed under the MIT License - feel free to use and modify it!
 
 ## Author
 
-Created by **Bdev**\
-GitHub: [yourusername](https://github.com/yourusername)
+Created by **BogdanDevX**\
+GitHub: [yourusername](https://github.com/BogdanDevX)
 
 ---
 
