@@ -75,7 +75,7 @@ This project is licensed under the MIT License - feel free to use and modify it!
 
 ## Author
 
-Created by **[BogdanDevX](https://github.com/BogdanDevX)**\
+Created by **[BogdanDevX](https://github.com/BogdanDevX)**
 ---
 
 🚀 **Keep your Arch Linux system clean and optimized with ease!**
