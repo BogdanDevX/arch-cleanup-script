@@ -19,7 +19,7 @@ Clone the repository and make the script executable:
 
 ```bash
 git clone https://github.com/BogdanDevX/arch-cleanup-script.git
-cd arch-maintenance-script
+cd arch-cleanup-script
 chmod +x arch-cleanup.sh
 ```
 
