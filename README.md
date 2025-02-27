@@ -76,7 +76,7 @@ This project is licensed under the MIT License - feel free to use and modify it!
 ## Author
 
 Created by **BogdanDevX**\
-GitHub: [yourusername](https://github.com/BogdanDevX)
+[GitHub](https://github.com/BogdanDevX)
 
 ---
 
