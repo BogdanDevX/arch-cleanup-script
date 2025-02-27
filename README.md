@@ -21,7 +21,7 @@ This script provides a **simple and interactive way** to maintain an Arch Linux 
 Clone the repository and make the script executable:
 
 ```bash
-git clone https://github.com/yourusername/arch-maintenance-script.git
+git clone https://github.com/BogdanDevX/arch-cleanup-script.git
 cd arch-maintenance-script
 chmod +x arch-cleanup.sh
 ```
@@ -75,9 +75,7 @@ This project is licensed under the MIT License - feel free to use and modify it!
 
 ## Author
 
-Created by **BogdanDevX**\
-[GitHub](https://github.com/BogdanDevX)
-
+Created by **[BogdanDevX](https://github.com/BogdanDevX)**\
 ---
 
 🚀 **Keep your Arch Linux system clean and optimized with ease!**
